@@ -3,7 +3,7 @@ package com.example.teacher2.pojo;
 /**
  * @作者：matao
  * @时间：2018/12/13 0013 上午 9:16
- * @描述：这是一个实体类aa
+ * @描述：这是一个实体类aaa
 */
 public class Student {
     private String name;
