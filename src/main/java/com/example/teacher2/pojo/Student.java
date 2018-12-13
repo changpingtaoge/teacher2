@@ -8,6 +8,15 @@ package com.example.teacher2.pojo;
 public class Student {
     private String name;
     private Integer age;
+    private String pwd;
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
 
     public String getName() {
         return name;
