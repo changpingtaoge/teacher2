@@ -1,5 +1,7 @@
 package com.example.teacher2.pojo;
 
+import java.util.Date;
+
 /**
  * @作者：matao
  * @时间：2018/12/13 0013 上午 9:16
@@ -10,6 +12,15 @@ public class Student {
     private Integer age;
     private String pwd;
     private String sex;
+    private Date date;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
     public String getSex() {
         return sex;
